@@ -1244,10 +1244,12 @@
 #viewer .slide {
     background-size: contain !important;
     background-position: center center !important;
+    background-repeat: no-repeat !important;
 }
 
+#thumbnails .thumbnail img,
 .thumbnail img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
 }
