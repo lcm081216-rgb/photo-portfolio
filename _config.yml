@@ -40,3 +40,5 @@ defaults:
     path: "gallery"
    values:
     image: true
+liquid:
+  error_mode: warn
